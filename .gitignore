@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Environment Variables & Secrets (CRITICAL: Never commit AWS RDS credentials)
+.env
+.env.local
+*.pem
+
+# Stream & Data Dumps / Large Files
+*.parquet
+*.log
+data_dump/
+temp/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

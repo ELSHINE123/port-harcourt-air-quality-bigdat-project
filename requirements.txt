@@ -1,0 +1,19 @@
+# Generative & Compute Layer
+pandas>=2.2.0
+numpy>=2.0.0
+scikit-learn>=1.5.0
+
+# Database & Cloud Warehouse Layer
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+
+# Environment & Secrets Management
+python-dotenv>=1.0.1
+
+# Visualization & Dashboard Layer
+streamlit>=1.40.0
+plotly>=5.24.0
+
+# Testing & Quality
+pytest>=8.3.0
+ruff>=0.8.0
